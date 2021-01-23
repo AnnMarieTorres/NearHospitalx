@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<x1:ContentPage
+  x:Class="NearHspt.Views.BasePrivacy"
+  xmlns="http://xamarin.com/schemas/2014/forms"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:resources="clr-namespace:NearHspt.Resx"
+  xmlns:x1="http://xamarin.com/schemas/2014/forms"
+  mc:Ignorable="d">
+
+  <x1:ContentPage.Padding>
+    <x1:OnPlatform x:TypeArguments="Thickness">
+      <x1:On Platform="iOS" Value="0, 20, 0, 0" />
+      <x1:On Platform="Android" Value="0, 0, 0, 0" />
+      <x1:On Platform="UWP" Value="0, 0, 0, 0" />
+    </x1:OnPlatform>
+  </x1:ContentPage.Padding>
+
+
+  <x1:StackLayout>
+    <x1:ScrollView VerticalScrollBarVisibility="Always">
+
+      <!--  ==================  -->
+      <x1:StackLayout x:Name="MainStack" BackgroundColor="WhiteSmoke">
+
+        <!--  1  -->
+        <x1:Frame
+          x:Name="LocationFrame"
+          Margin="10"
+          Padding="0"
+          BackgroundColor="WhiteSmoke"
+          BorderColor="Gray"
+          HorizontalOptions="FillAndExpand">
+
+          <x1:StackLayout
+            x:Name="MainFrameStack0"
+            Padding="15"
+            HorizontalOptions="FillAndExpand"
+            Spacing="9">
+
+
+            <!--  main header content  -->
+            <Frame
+              Padding="8,0,8,0"
+              BorderColor="Green"
+              CornerRadius="3"
+              HasShadow="True"
+              HorizontalOptions="FillAndExpand">
+
+              <x1:StackLayout>
+                <x1:Label
+                  Margin="0,5,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Small"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyTopHead}" />
+
+                <x1:Label
+                  Margin="0,0,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Micro"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyLastUpdate}" />
+
+                <x1:Label
+                  Margin="0,0,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Micro"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyMainBody}" />
+
+              </x1:StackLayout>
+            </Frame>
+
+
+
+            <!--  Border around 1  -->
+            <Frame
+              Padding="8,0,8,0"
+              BorderColor="Green"
+              CornerRadius="3"
+              HasShadow="True"
+              HorizontalOptions="FillAndExpand">
+
+              <x1:StackLayout>
+                <x1:Label
+                  Margin="0,5,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Small"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyHead1}" />
+
+                <x1:Label
+                  Margin="0,0,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Micro"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyBody1}" />
+
+              </x1:StackLayout>
+
+            </Frame>
+
+            <!--  Border around 2  -->
+            <Frame
+              Padding="8,0,8,0"
+              BorderColor="Green"
+              CornerRadius="3"
+              HasShadow="True"
+              HorizontalOptions="FillAndExpand">
+
+              <x1:StackLayout>
+                <x1:Label
+                  Margin="0,5,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Small"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyHead2}" />
+
+                <x1:Label
+                  Margin="0,0,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Micro"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyBody2}" />
+
+              </x1:StackLayout>
+
+            </Frame>
+
+
+            <!--  Border around 3  -->
+            <Frame
+              Padding="8,0,8,0"
+              BorderColor="Green"
+              CornerRadius="3"
+              HasShadow="True"
+              HorizontalOptions="FillAndExpand">
+
+              <x1:StackLayout>
+                <x1:Label
+                  Margin="0,5,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Small"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyHead3}" />
+
+                <x1:Label
+                  Margin="0,0,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Micro"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyBody3}" />
+
+              </x1:StackLayout>
+
+            </Frame>
+
+
+            <!--  Border around 4  -->
+            <Frame
+              Padding="8,0,8,0"
+              BorderColor="Green"
+              CornerRadius="3"
+              HasShadow="True"
+              HorizontalOptions="FillAndExpand">
+
+              <x1:StackLayout>
+                <x1:Label
+                  Margin="0,5,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Small"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyHead4}" />
+
+                <x1:Label
+                  Margin="0,0,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Micro"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyBody4}" />
+
+              </x1:StackLayout>
+
+            </Frame>
+
+
+            <!--  Border around 5  -->
+            <Frame
+              Padding="8,0,8,0"
+              BorderColor="Green"
+              CornerRadius="3"
+              HasShadow="True"
+              HorizontalOptions="FillAndExpand">
+
+              <x1:StackLayout>
+                <x1:Label
+                  Margin="0,5,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Small"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyHead5}" />
+
+                <x1:Label
+                  Margin="0,0,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Micro"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyBody5}" />
+
+              </x1:StackLayout>
+
+            </Frame>
+
+
+            <!--  Border around 6  -->
+            <Frame
+              Padding="8,0,8,0"
+              BorderColor="Green"
+              CornerRadius="3"
+              HasShadow="True"
+              HorizontalOptions="FillAndExpand">
+
+              <x1:StackLayout>
+                <x1:Label
+                  Margin="0,5,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Small"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyHead6}" />
+
+                <x1:Label
+                  Margin="0,0,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Micro"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyBody6}" />
+
+              </x1:StackLayout>
+
+            </Frame>
+
+
+            <!--  Border around 7  -->
+            <Frame
+              Padding="8,0,8,0"
+              BorderColor="Green"
+              CornerRadius="3"
+              HasShadow="True"
+              HorizontalOptions="FillAndExpand">
+
+              <x1:StackLayout>
+                <x1:Label
+                  Margin="0,5,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Small"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyHead7}" />
+
+                <x1:Label
+                  Margin="0,0,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Micro"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyBody7}" />
+
+              </x1:StackLayout>
+
+            </Frame>
+
+
+            <!--  Border around 8  -->
+            <Frame
+              Padding="8,0,8,0"
+              BorderColor="Green"
+              CornerRadius="3"
+              HasShadow="True"
+              HorizontalOptions="FillAndExpand">
+
+              <x1:StackLayout>
+                <x1:Label
+                  Margin="0,5,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Small"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyHead8}" />
+
+                <x1:Label
+                  Margin="0,0,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Micro"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyBody8}" />
+
+              </x1:StackLayout>
+
+            </Frame>
+
+
+            <!--  Border around 9  -->
+            <Frame
+              Padding="8,0,8,0"
+              BorderColor="Green"
+              CornerRadius="3"
+              HasShadow="True"
+              HorizontalOptions="FillAndExpand">
+
+              <x1:StackLayout>
+                <x1:Label
+                  Margin="0,5,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Small"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyHead9}" />
+
+                <x1:Label
+                  Margin="0,0,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Micro"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyBody9}" />
+
+              </x1:StackLayout>
+
+            </Frame>
+
+
+            <!--  Border around 10  -->
+            <Frame
+              Padding="8,0,8,0"
+              BorderColor="Green"
+              CornerRadius="3"
+              HasShadow="True"
+              HorizontalOptions="FillAndExpand">
+
+              <x1:StackLayout>
+                <x1:Label
+                  Margin="0,5,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Small"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyHead10}" />
+
+                <x1:Label
+                  Margin="0,0,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Micro"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyBody10}" />
+
+              </x1:StackLayout>
+
+            </Frame>
+
+
+            <!--  Border around 11  -->
+            <Frame
+              Padding="8,0,8,0"
+              BorderColor="Green"
+              CornerRadius="3"
+              HasShadow="True"
+              HorizontalOptions="FillAndExpand">
+
+              <x1:StackLayout>
+                <x1:Label
+                  Margin="0,5,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Small"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyHead11}" />
+
+                <x1:Label
+                  Margin="0,0,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Micro"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyBody11}" />
+
+              </x1:StackLayout>
+
+            </Frame>
+
+
+            <!--  Border around 12  -->
+            <Frame
+              Padding="8,0,8,0"
+              BorderColor="Green"
+              CornerRadius="3"
+              HasShadow="True"
+              HorizontalOptions="FillAndExpand">
+
+              <x1:StackLayout>
+                <x1:Label
+                  Margin="0,5,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Small"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyHead12}" />
+
+                <x1:Label
+                  Margin="0,0,0,0"
+                  BackgroundColor="WhiteSmoke"
+                  FontAttributes="Bold"
+                  FontSize="Micro"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text="{x:Static resources:AppResources.BPrivacyBody12}" />
+
+              </x1:StackLayout>
+
+            </Frame>
+
+
+          </x1:StackLayout>
+        </x1:Frame>
+
+      </x1:StackLayout>
+    </x1:ScrollView>
+
+
+
+  </x1:StackLayout>
+
+
+
+</x1:ContentPage>

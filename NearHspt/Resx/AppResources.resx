@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="AddButton" xml:space="preserve">
+    <value>Add Note</value>
+  </data>
+  <data name="AlertFirstQuestionHd" xml:space="preserve">
+    <value>Just some Info</value>
+  </data>
+  <data name="AlertFisrtQuestion" xml:space="preserve">
+    <value>Why [Refresh] by me and not Auto?
+We are trying to save your Battery!
+
+Repeated auto calls to GPS can drain your battery rather fast.
+
+We want YOU in control of calls to GPS.
+   hurray   ---   BATTERY SAVED.</value>
+  </data>
+  <data name="AlertNoHospitalYet" xml:space="preserve">
+    <value>No GPS location data yet.
+(1) Assure that you have Internet Access
+(2) Pressing [ Start / Refresh ] to reload Location data.
+</value>
+  </data>
+  <data name="AlertNoHospitalYetH" xml:space="preserve">
+    <value>No Data Yet</value>
+  </data>
+  <data name="AlertNoInternet" xml:space="preserve">
+    <value>Could not 'get' GPS
+1) Current Internet acceess restricted (like 'free' access)
+2) No Internet / Wi-Fi access
+
+A) Check 'Settings', 'Connections'
+B)   Check Toolbar Menus (three-dots) for 'Tips', 'Troubleshooting'</value>
+  </data>
+  <data name="AlertNoInternetHD" xml:space="preserve">
+    <value>Problem getting GPS</value>
+  </data>
+  <data name="AlertNoLatLong" xml:space="preserve">
+    <value>No data, even after a minute?
+1) First, assure Internet Conectivity
+      Check out this app's Toolbar menus
+        (Upper right, three dots)
+2) Assure that "Location" is on:
+      * Tap on Phone [Settings],
+      *  next Tap on [Connections]
+      *  check \"Locations\" (must be ON)</value>
+  </data>
+  <data name="AlertNoLatLonhd" xml:space="preserve">
+    <value>Error getting Location</value>
+  </data>
+  <data name="AlertPermissionNeeded" xml:space="preserve">
+    <value>Device 'Location' required, and Permission needed:
+
+the 'Location' is used to get your position, and compare against a hospital position.
+
+See top Toolbar menu, "Tips" for more...</value>
+  </data>
+  <data name="AlertPermissionNeededHead1" xml:space="preserve">
+    <value>'Location' Permission needed.</value>
+  </data>
+  <data name="Base Private" xml:space="preserve">
+    <value>Privacy</value>
+  </data>
+  <data name="BaseAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="BaseContact" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="BaseFeedback" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="BaseHowItWorks" xml:space="preserve">
+    <value>How Does it Work?</value>
+  </data>
+  <data name="BaseHowItWorksHow" xml:space="preserve">
+    <value>
+(2)  How does it Work?
+</value>
+  </data>
+  <data name="BaseHowItWorksSafe" xml:space="preserve">
+    <value>
+(3)  Question about battery life.
+</value>
+  </data>
+  <data name="BaseHowItWorksTxt2" xml:space="preserve">
+    <value>Start the application. 
+Tap [Start / Refresh ]
+
+(1) Your geolocation is generated.
+
+(2) Hospital database is prepared
+
+(3) Part of the database keyed to your location will now move into the app.
+
+(4) A particular Hospital selected.
+
+(5) A call goes out to Google to formulate, and show Hospital Details
+</value>
+  </data>
+  <data name="BaseHowItWorksTxt5Safe" xml:space="preserve">
+    <value>Good Question?
+
+Our Promise:
+Our app will:
+
+** asked for permissions before we use certain functions
+
+** run geo scans in concise bursts, and save battery life
+
+** run a brief, targeted info-request blast to Google when a selected Hospital (name) needs updates, and save battery life
+</value>
+  </data>
+  <data name="BaseHowItWorksWhat" xml:space="preserve">
+    <value>
+(1)  What is it?
+</value>
+  </data>
+  <data name="BaseHowItWorksWhatisItText" xml:space="preserve">
+    <value>This application will:
+
+    * list the nearest Hospital(s), 
+       show distance, give many details
+
+
+  ** or gives you a list of all Hospital(s) in
+      100 miles surrounding (or 1st 100)
+*** lets you select a Hospital from the sorted list
+      and will show a Google-generated page with 
+      many hospital related details, including:
+
+
+(a) hospitals address, phone numbers
+
+(b) Driving Direction, web-site
+
+(c) medical and health capabilities
+
+(d) presence of an Emergency Department
+
+(e) RATING</value>
+  </data>
+  <data name="BaseHowItWorksWhatText" xml:space="preserve">
+    <value>This application will:
+
+    * list the nearest Hospital(s), 
+       show distance, give many details
+
+
+  ** or gives you a list of all Hospital(s) in
+      100 miles surrounding (or 1st 100)
+*** lets you select a Hospital from the sorted list
+      and will show a Google-generated page with 
+      many hospital related details, including:
+
+
+(a) hospitals address, phone numbers
+
+(b) Driving Direction, web-site
+
+(c) medical and health capabilities
+
+(d) presence of an Emergency Department
+
+(e) RATING</value>
+  </data>
+  <data name="BaseLegal" xml:space="preserve">
+    <value>Legal Disclaimer</value>
+  </data>
+  <data name="BaseListGuideSorting" xml:space="preserve">
+    <value>You can SORT the list on all columns
+
+-  Tap 'Miles', 'Beds', 'Name'
+-  column will sort up/down
+-  an arrow to the right will tell direction
+</value>
+  </data>
+  <data name="BaseListGuideSortingHD" xml:space="preserve">
+    <value>(1)  How to Sort the List</value>
+  </data>
+  <data name="BaseListGuideWhatDetails" xml:space="preserve">
+    <value>This application will:
+
+  * list the nearest Hospital (name), 
+     show distance
+
+** or gives you a list of all Hospital (names) 
+     in 100 miles surrounding (or 1st 100)
+
+Select a Hospital (name) from a list, and a Google-generated page will show many details about the selected Hospital:
+
+(a) hospitals address, phone numbers
+
+(b) Driving Direction, web-site
+
+(c) medical and health capabilities
+
+(d) presence of an Emergency Department
+
+(e) RATING</value>
+  </data>
+  <data name="BaseListGuideWhatDetailsHD" xml:space="preserve">
+    <value>(2)  What are the Details I see?</value>
+  </data>
+  <data name="BaseShare" xml:space="preserve">
+    <value>Share This App</value>
+  </data>
+  <data name="BaseShareText" xml:space="preserve">
+    <value>This seems to be a very useful app. 
+It gives you a list of hospitals centered around your current location. 
+The listed hospitals have a lot of details, and yes, they are RATED. 
+Take a look at 
+[https://www.cnginternetsoftware.com/smart_phone_software ]</value>
+  </data>
+  <data name="BaseTips" xml:space="preserve">
+    <value>Tips</value>
+  </data>
+  <data name="BaseTipsInstantSilence" xml:space="preserve">
+    <value>'Instant Silence' is an option where you can NOW turn this buzzing off, even for a length of time
+
+(1) Bring up 'Starter - Phone Silence Page, i.e. 1st page
+(2) Select 'Silent on', select 'til when if needed
+  --  done; silent 'til:
+    -- press 'now Off', or
+    -- duration runs out.
+</value>
+  </data>
+  <data name="BaseTipsLocation" xml:space="preserve">
+    <value>MY ADDRESS IS WRONG, WHY?
+GPS receivers use signals from satellites and sender on the ground to get a 'fix' on your location. That information is merged (overlayed) on maps to get a 'named' address. Two challenges:
+(1) satelite and ground equipment signals can, and will, be interfered with, and
+(2) maps go out of date.
+So, with these bottlenecks, an 'accurate' address is at time off by as much as 60 feet.
+
+A Tip: Assure that the "High accuracy" setting is on. Go to 'Settings', 'Connections', 'Locations', and set "High accuracy" on.
+</value>
+  </data>
+  <data name="BaseTipsLocationHD" xml:space="preserve">
+    <value>
+(1)  Google Geo Locations</value>
+  </data>
+  <data name="BaseTipsPermissions" xml:space="preserve">
+    <value>Setting User Access Permissions can be done in two ways:
+
+(1) via standard in-program message panels,
+
+(2) via 'outside' general app Settings options.
+Start by finding and tapping the [ Settings ] icon
+Next:
+
+(a) tap "Apps," tap "All" or "Enabled" option
+(b) scroll, find and tap on "Phone Silence Area,"
+(c) scroll, and find "Permissions," set as required
+</value>
+  </data>
+  <data name="BaseTipsSmallArea" xml:space="preserve">
+    <value>If this app needs to 'work' in areas suspected of transmission interferences, it can use some help.
+
+(1) Internet Connection ON, able to reach Googles Location Services
+(2) Turn 'high accuracy localization mode' on (see next subject)
+(3) Turn Wi-Fi (Wi-Fi Scanning) on. Not having to relay just on cell info.
+(4) Turn GPS on (Warning, heavy battery use).
+</value>
+  </data>
+  <data name="BaseTrouble" xml:space="preserve">
+    <value>Troubleshooting</value>
+  </data>
+  <data name="BPrivacyBody1" xml:space="preserve">
+    <value>We collect NO personal information. 
+We collect NO payment information. 
+We collect NO Social Media Login Data. 
+We collect NO automatic data, such as IP addresses or device characteristics. 
+We collect NO private, personal information from other sources.</value>
+  </data>
+  <data name="BPrivacyBody10" xml:space="preserve">
+    <value>As a resident of California, you are covered by California Civil Code Section 1798.83, known as the "Shine The Light" law. Your Rights include the request, free, once a year, of specific Information about personal Information if any collected. 
+Please contact us via email at service@CNGInternetSoftware.com regarding CA 1798.83</value>
+  </data>
+  <data name="BPrivacyBody11" xml:space="preserve">
+    <value>Yes, whenever it is necessary to stay legal. An updated "Revised" date will indicate the updated version.</value>
+  </data>
+  <data name="BPrivacyBody12" xml:space="preserve">
+    <value>Any questions, any comments, please email us at Service@CNGInternetSoftware.com.</value>
+  </data>
+  <data name="BPrivacyBody2" xml:space="preserve">
+    <value>We are not processing any personal, private information at all</value>
+  </data>
+  <data name="BPrivacyBody3" xml:space="preserve">
+    <value>NO</value>
+  </data>
+  <data name="BPrivacyBody4" xml:space="preserve">
+    <value>NO</value>
+  </data>
+  <data name="BPrivacyBody5" xml:space="preserve">
+    <value>NO</value>
+  </data>
+  <data name="BPrivacyBody6" xml:space="preserve">
+    <value>NO</value>
+  </data>
+  <data name="BPrivacyBody7" xml:space="preserve">
+    <value>NO</value>
+  </data>
+  <data name="BPrivacyBody8" xml:space="preserve">
+    <value>Although we do not collect any information, you may contact us at service@CNGInternetSoftware.com regarding any discussion regarding privacy and personal data.</value>
+  </data>
+  <data name="BPrivacyBody9" xml:space="preserve">
+    <value>Do-Not-Track (DNT) technology for mobile applications is not yet uniformly implemented. We currently do not recognize, collect, and process and respond to DNT.</value>
+  </data>
+  <data name="BPrivacyHead1" xml:space="preserve">
+    <value>1. WHAT INFORMATION DO WE COLLECT?</value>
+  </data>
+  <data name="BPrivacyHead10" xml:space="preserve">
+    <value>10. CALIFORNIA RESIDENTS PRIVACY RIGHTS?</value>
+  </data>
+  <data name="BPrivacyHead11" xml:space="preserve">
+    <value>11. DO WE MAKE UPDATES TO THIS POLICY?</value>
+  </data>
+  <data name="BPrivacyHead12" xml:space="preserve">
+    <value>12. HOW CAN YOU CONTACT US ABOUT THIS POLICY?</value>
+  </data>
+  <data name="BPrivacyHead2" xml:space="preserve">
+    <value>2. HOW DO WE USE YOUR INFORMATION?</value>
+  </data>
+  <data name="BPrivacyHead3" xml:space="preserve">
+    <value>3. WILL YOUR INFORMATION BE SHARED WITH ANYONE?</value>
+  </data>
+  <data name="BPrivacyHead4" xml:space="preserve">
+    <value>4. WHAT ABOUT COOKIES AND OTHER TRACKING TECHNOLOGIES?</value>
+  </data>
+  <data name="BPrivacyHead5" xml:space="preserve">
+    <value>5. Does this software have/use logins from Social Media?</value>
+  </data>
+  <data name="BPrivacyHead6" xml:space="preserve">
+    <value>6. IS YOUR INFORMATION TRANSFERRED INTERNATIONALLY?</value>
+  </data>
+  <data name="BPrivacyHead7" xml:space="preserve">
+    <value>7. DO WE COLLECT INFORMATION FROM MINORS?</value>
+  </data>
+  <data name="BPrivacyHead8" xml:space="preserve">
+    <value>8. WHAT ARE YOUR PRIVACY RIGHTS?</value>
+  </data>
+  <data name="BPrivacyHead9" xml:space="preserve">
+    <value>9. DO WE RESPOND TO DO-NOT-TRACK SIGNALS?</value>
+  </data>
+  <data name="BPrivacyLastUpdate" xml:space="preserve">
+    <value>Last updated [January 1st, 2020]</value>
+  </data>
+  <data name="BPrivacyMainBody" xml:space="preserve">
+    <value>Thank you downloading our mobile software. We will protect your Personal Information and your right to privacy. Any questions regarding your Personal Information, please contact us at service@CNGInternetSoftware.com
+This document will describe our privacy policy. We will explain to you what Information, if any, we collect, how it is (if received) used, and what your rights are. In case you do not agree with our Privacy Policy, please stop using this application.
+This privacy policy applies to all collected Information as well as related services.</value>
+  </data>
+  <data name="BPrivacyTopHead" xml:space="preserve">
+    <value>Privacy Notice</value>
+  </data>
+  <data name="DisplayAlertPermissionDeniedHead2" xml:space="preserve">
+    <value>Device Location Access Denied</value>
+  </data>
+  <data name="EntryXamActivate" xml:space="preserve">
+    <value>Activate  -  Manage Profiles</value>
+  </data>
+  <data name="EntryXamAllPlaces" xml:space="preserve">
+    <value>By Location.   Any Place, Any Room.</value>
+  </data>
+  <data name="EntryXamCreate" xml:space="preserve">
+    <value>Create A Profile</value>
+  </data>
+  <data name="EntryXamCutoff" xml:space="preserve">
+    <value>Until:
+@ am/pm</value>
+  </data>
+  <data name="EntryXamDuration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="EntryXamInstantSilence" xml:space="preserve">
+    <value>"Emergency"
+Instant Silence</value>
+  </data>
+  <data name="EntryXamOnAgain" xml:space="preserve">
+    <value>Until:</value>
+  </data>
+  <data name="EntryXamOptionalTime" xml:space="preserve">
+    <value>Optional, max. 24hrs</value>
+  </data>
+  <data name="EntryXamProfilesUsed" xml:space="preserve">
+    <value> are used to define a Silent Area.</value>
+  </data>
+  <data name="FindHLabelAllOther" xml:space="preserve">
+    <value>All other Hospitals / ER's, from your location, either:
+1 - First 100 count
+2 - or, First 100 miles</value>
+  </data>
+  <data name="Inactive" xml:space="preserve">
+    <value>Inactive</value>
+  </data>
+  <data name="ListRuleHeader" xml:space="preserve">
+    <value>Listing. To manage, TAP on a Profile.</value>
+  </data>
+  <data name="MainPageDeviceLocationGranted" xml:space="preserve">
+    <value>   [Phone Silent Area] runs now normal,
+   i.e. with locations, Profiles
+
+</value>
+  </data>
+  <data name="MainPageFastExplanation" xml:space="preserve">
+    <value>This is the distance, in miles, from your current location to the nearest Profile. 
+
+Why is that important?
+AI (Artificial Intelligence) at work. 
+If the phone is miles and miles from the most adjacent Profile, the App goes to sleep, waking up in a time when we are way closer. 
+
+So? 
+SAVING BATTERY POWER. 
+No draining of battery while 'looking' for that Profile with a radius of 100ft, and we are 10 miles away. 
+
+Did I say AI at work?</value>
+  </data>
+  <data name="MainPageNotSilent" xml:space="preserve">
+    <value>Not Silent</value>
+  </data>
+  <data name="MainPageTurnSilent" xml:space="preserve">
+    <value>Turn Silent</value>
+  </data>
+  <data name="MainPageXalmNoProfileYet" xml:space="preserve">
+    <value>No Profile(s) yet</value>
+  </data>
+  <data name="MainPageXamlNearest" xml:space="preserve">
+    <value>Nearest Profile...:</value>
+  </data>
+  <data name="NoProfileYet" xml:space="preserve">
+    <value>No Profile(s) yet.</value>
+  </data>
+  <data name="NotesLabel" xml:space="preserve">
+    <value>Notes:</value>
+  </data>
+  <data name="NotesPlaceholder" xml:space="preserve">
+    <value>e.g. Get Milk</value>
+  </data>
+</root>

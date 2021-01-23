@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<x1:ContentPage
+  x:Class="NearHspt.Views.BaseHowItWorks"
+  xmlns="http://xamarin.com/schemas/2014/forms"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:resources="clr-namespace:NearHspt.Resx"
+  xmlns:x1="http://xamarin.com/schemas/2014/forms"
+  mc:Ignorable="d">
+
+  <ContentPage.Resources>
+    <Color x:Key="ExpandedColor">Yellow</Color>
+    <Color x:Key="CollapsedColor">LightGray</Color>
+  </ContentPage.Resources>
+
+
+
+  <ContentPage.Content>
+    <!--  General Scrollable stuff, (excluding fixed 'CNG Msg")  -->
+    <x1:ScrollView x:Name="GenScrollWindow" VerticalScrollBarVisibility="Always">
+
+
+      <Grid>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto" />
+          <RowDefinition Height="*" />
+          <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackLayout Grid.Row="0" Padding="5,10,6,6">
+
+          <Frame
+            Padding="8,0,8,0"
+            BorderColor="Green"
+            CornerRadius="3"
+            HasShadow="True"
+            HorizontalOptions="FillAndExpand">
+
+            <StackLayout>
+              <Label
+                BackgroundColor="Gray"
+                Text="&#10;{x:Static resources:AppResources.BaseHowItWorksWhat}&#10;"
+                TextColor="WhiteSmoke"
+                VerticalTextAlignment="Center" />
+
+
+              <Label
+                Padding="2,2,2,5"
+                Text="{x:Static resources:AppResources.BaseHowItWorksWhatText}"
+                TextColor="#303030"
+                VerticalTextAlignment="Center" />
+            </StackLayout>
+
+          </Frame>
+        </StackLayout>
+
+        <StackLayout Grid.Row="1" Padding="5,10,6,6">
+          <Frame
+            Padding="8,0,8,0"
+            BorderColor="Green"
+            CornerRadius="3"
+            HasShadow="True"
+            HorizontalOptions="FillAndExpand">
+
+            <StackLayout>
+              <Label
+                BackgroundColor="Gray"
+                Text="&#10;{x:Static resources:AppResources.BaseHowItWorksHow}&#10;"
+                TextColor="WhiteSmoke"
+                VerticalTextAlignment="Center" />
+
+              <Label
+                Text="{x:Static resources:AppResources.BaseHowItWorksTxt2}"
+                TextColor="#303030"
+                VerticalTextAlignment="Center" />
+            </StackLayout>
+
+          </Frame>
+        </StackLayout>
+
+        <StackLayout Grid.Row="2" Padding="5,10,6,6">
+          <Frame
+            Padding="8,0,8,0"
+            BorderColor="Green"
+            CornerRadius="3"
+            HasShadow="True"
+            HorizontalOptions="FillAndExpand">
+
+            <StackLayout>
+              <Label
+                BackgroundColor="Gray"
+                Text="&#10;{x:Static resources:AppResources.BaseHowItWorksSafe}&#10;"
+                TextColor="WhiteSmoke"
+                VerticalTextAlignment="Center" />
+
+              <Label Text="{x:Static resources:AppResources.BaseHowItWorksTxt5Safe}" VerticalTextAlignment="Center" />
+            </StackLayout>
+
+          </Frame>
+        </StackLayout>
+      </Grid>
+
+    </x1:ScrollView>
+  </ContentPage.Content>
+</x1:ContentPage>

@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<x1:ContentPage
+  x:Class="NearHspt.Views.FindHospital"
+  xmlns="http://xamarin.com/schemas/2014/forms"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:resources="clr-namespace:NearHspt.Resx"
+  xmlns:x1="http://xamarin.com/schemas/2014/forms"
+  mc:Ignorable="d">
+
+
+  <!--  General Stacklayout, entire screen  -->
+  <!--<x1:StackLayout>-->
+  <!--
+    General Scrollable stuff, (excluding fixed 'CNG Msg")
+  -->
+  <x1:ScrollView x:Name="GenScrollWindow" VerticalScrollBarVisibility="Always">
+
+    <!--  All material inside outer Frame  -->
+    <x1:StackLayout
+      x:Name="MainStack"
+      BackgroundColor="WhiteSmoke"
+      Spacing="60">
+
+      <!--  Outer Frame, framing all other Borders  -->
+      <x1:Frame
+        x:Name="LocationFrame"
+        Margin="10,10,10,10"
+        Padding="0,0,0,0"
+        BackgroundColor="White"
+        BorderColor="LightGray"
+        HorizontalOptions="FillAndExpand">
+
+        <!--  Holding (3) sections via 'Borders'  -->
+        <x1:StackLayout
+          x:Name="MainFrameStack"
+          Padding="5"
+          HorizontalOptions="FillAndExpand"
+          Spacing="10">
+
+
+          <!--  Current location details  -->
+          <!--<Frame
+            Padding="10,10,0,0"
+            BackgroundColor="WhiteSmoke"
+            BorderColor="Green"
+            CornerRadius="6"
+            HasShadow="True"
+            HorizontalOptions="FillAndExpand">-->
+
+          <x1:StackLayout Spacing="0">
+
+            <!--  Text "My Address via GPS ... "  -->
+            <x1:StackLayout
+              x:Name="addressQuestion"
+              Padding="10,5,0,0"
+              BackgroundColor="WhiteSmoke"
+              HorizontalOptions="Start"
+              Orientation="Horizontal"
+              Spacing="0">
+
+              <x1:Label
+                Margin="5,5,5,5"
+                BackgroundColor="WhiteSmoke"
+                FontAttributes="Bold"
+                FontSize="Default"
+                HorizontalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                Text="My Address via GPS ..."
+                TextColor="Blue"
+                VerticalTextAlignment="Center" />
+
+            </x1:StackLayout>
+
+            <!--  Text, Address, Google mark  -->
+            <x1:StackLayout Orientation="Horizontal">
+              <Frame
+                Margin="10,5,0,20"
+                BorderColor="Green"
+                CornerRadius="6"
+                HasShadow="True"
+                HorizontalOptions="FillAndExpand">
+
+                <x1:Label
+                  x:Name="lbMyAddress"
+                  Margin="0,0,0,0"
+                  BackgroundColor="LightYellow"
+                  FontSize="Micro"
+                  HorizontalOptions="FillAndExpand"
+                  HorizontalTextAlignment="Start"
+                  Text=" No GPS Data yet... Press [ Refresh ]"
+                  TextColor="Black"
+                  VerticalTextAlignment="Center" />
+              </Frame>
+
+              <x1:Image
+                x:Name="MyAddress"
+                Margin="10,-10,10,0"
+                Source="aamylocation.png">
+                <x1:Image.GestureRecognizers>
+                  <x1:TapGestureRecognizer Tapped="MyAddress_Tapped" />
+                </x1:Image.GestureRecognizers>
+              </x1:Image>
+
+            </x1:StackLayout>
+
+          </x1:StackLayout>
+          <!--</Frame>-->
+
+
+          <!--  Nearest Hospital / ER  -->
+          <!--<Frame
+            Padding="8,0,8,40"
+            BackgroundColor="WhiteSmoke"
+            BorderColor="Gray"
+            CornerRadius="6"
+            HorizontalOptions="FillAndExpand">-->
+
+          <!--  consolidating all Controls  -->
+          <x1:StackLayout>
+            <x1:Label
+              x:Name="Nearest_Hospital"
+              Margin="5,5,0,5"
+              BackgroundColor="WhiteSmoke"
+              FontAttributes="Bold"
+              FontSize="Default"
+              HorizontalOptions="FillAndExpand"
+              HorizontalTextAlignment="Start"
+              Text="Nearest Hospital / ER"
+              TextColor="Blue"
+              VerticalTextAlignment="Center" />
+
+
+            <x1:Button
+              x:Name="btNearestHospital"
+              Margin="10,0,10,0"
+              BackgroundColor="LightBlue"
+              BorderColor="Blue"
+              BorderWidth="2"
+              Clicked="btNearestHospital_ClickedAsync"
+              CornerRadius="10"
+              FontSize="Micro"
+              HorizontalOptions="FillAndExpand"
+              ImageSource="EMS.png"
+              Text="No GPS Data yet&#10; Press [ Refresh ]"
+              TextColor="Black"
+              VerticalOptions="Center" />
+
+            <!--</border:SfBorder>-->
+
+
+          </x1:StackLayout>
+          <!--</Frame>-->
+
+
+          <!--  List of all other (100 count)  Hospitals  -->
+          <!--<Frame
+            Padding="8,0,8,40"
+            BorderColor="Gray"
+            CornerRadius="6"
+            HorizontalOptions="FillAndExpand">-->
+
+          <!--  consolidating all Controls under 'SfBorder  -->
+          <x1:StackLayout>
+            <x1:Label
+              Margin="5,5,0,5"
+              BackgroundColor="WhiteSmoke"
+              FontAttributes="Bold"
+              FontSize="Default"
+              HorizontalOptions="FillAndExpand"
+              HorizontalTextAlignment="Start"
+              Text="More nearby Hospitals / ER's"
+              TextColor="Blue"
+              VerticalTextAlignment="Center" />
+
+            <x1:Button
+              x:Name="btdisplayAllHospitals"
+              Margin="0,0,0,20"
+              BackgroundColor="LightBlue"
+              BorderColor="Blue"
+              BorderWidth="2"
+              Clicked="btdisplayAllHospitals_Clicked"
+              CornerRadius="10"
+              FontSize="Micro"
+              HeightRequest="55"
+              HorizontalOptions="FillAndExpand"
+              ImageSource="ambulance.png"
+              Text="Ready For... Other Hospitals "
+              TextColor="Black"
+              VerticalOptions="Center" />
+
+          </x1:StackLayout>
+
+          <!--</Frame>-->
+
+          <!--  Circular Progess, Refresh button, Question Mark group  -->
+          <x1:StackLayout>
+
+            <x1:StackLayout
+              Margin="0,20,0,10"
+              HorizontalOptions="EndAndExpand"
+              Orientation="Horizontal">
+
+              <!--  Round Progress Bar  -->
+              <!--<progressBar:SfCircularProgressBar
+                x:Name="progressBar01"
+                AnimationDuration="5000"
+                BackgroundColor="LightGray"
+                HeightRequest="55"
+                HorizontalOptions="End"
+                IndicatorInnerRadius="0.55"
+                IndicatorOuterRadius="0.9"
+                IsVisible="False"
+                WidthRequest="55">
+                <progressBar:SfCircularProgressBar.Content
+                  HeightRequest="55"
+                  HorizontalOptions="End"
+                  WidthRequest="55">
+                  <Grid>
+                    <Button
+                      x:Name="startbutton"
+                      BackgroundColor="Transparent"
+                      Text=" " />
+                    <Button
+                      x:Name="stopbutton"
+                      BackgroundColor="Transparent"
+                      IsVisible="False"
+                      Text=" " />
+                  </Grid>
+                </progressBar:SfCircularProgressBar.Content>
+              </progressBar:SfCircularProgressBar>-->
+
+
+              <Frame
+                Padding="0,0,0,0"
+                BorderColor="Blue"
+                CornerRadius="10"
+                HorizontalOptions="FillAndExpand">
+
+
+                <x1:Button
+                  x:Name="btRefresh"
+                  Margin="0,0,0,0"
+                  BackgroundColor="#40E2F3"
+                  BorderColor="Blue"
+                  BorderWidth="0"
+                  Clicked="btRefresh_Clicked"
+                  CornerRadius="10"
+                  FontSize="Micro"
+                  HorizontalOptions="End"
+                  Text="Refresh"
+                  TextColor="Black"
+                  VerticalOptions="Center" />
+
+              </Frame>
+
+
+              <x1:Image
+                x:Name="littleHelp"
+                Margin="0,0,0,10"
+                HorizontalOptions="End"
+                Source="smallhelp.png"
+                VerticalOptions="Center">
+                <x1:Image.GestureRecognizers>
+                  <x1:TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1" />
+                </x1:Image.GestureRecognizers>
+              </x1:Image>
+
+            </x1:StackLayout>
+
+          </x1:StackLayout>
+
+
+
+        </x1:StackLayout>
+
+      </x1:Frame>
+
+    </x1:StackLayout>
+
+  </x1:ScrollView>
+
+  <!--  ======================================  -->
+  <!--  CNG Msg on bottom of all other layout  -->
+  <!--  ======================================  -->
+  <!--<local:LabelClickable
+      x:Name="BottomLabel2"
+      Margin="10,2,10,2"
+      Padding="10,0"
+      BackgroundColor="LightYellow"
+      FontSize="Micro"
+      HeightRequest="50"
+      HorizontalOptions="CenterAndExpand"
+      HorizontalTextAlignment="Start"
+      Text="Published by CNG Internet Software, LLC. Publisher of the 'Small App - Big Impact' App Series [Tap for website]"
+      TextColor="Black"
+      VerticalOptions="Center"
+      VerticalTextAlignment="Center" />-->
+
+  <!--</x1:StackLayout>-->
+
+</x1:ContentPage>

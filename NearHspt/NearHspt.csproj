@@ -1,0 +1,119 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType></DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="aaa_Save\**" />
+    <Compile Remove="HospitalData\**" />
+    <EmbeddedResource Remove="aaa_Save\**" />
+    <EmbeddedResource Remove="HospitalData\**" />
+    <None Remove="aaa_Save\**" />
+    <None Remove="HospitalData\**" />
+    <Compile Remove="Controls\FlyoutHeader.xaml 2.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="AA_Utilities\HospitalDBInfo.cs" />
+    <Compile Remove="AA_Utilities\LabelClickable.cs" />
+    <Compile Remove="AA_Utilities\PermissionUtil.cs" />
+    <Compile Remove="Controls\GeneralSearchHandler.cs" />
+    <Compile Remove="Controls\SpecificSearchHandler.cs" />
+    <Compile Remove="Data\CL01AAAData.cs" />
+    <Compile Remove="Data\CL01BBBData.cs" />
+    <Compile Remove="Data\Single01Data.cs" />
+    <Compile Remove="Data\Single03Data.cs" />
+    <Compile Remove="ViewModels\Single001DetailViewModel.cs" />
+    <Compile Remove="ViewModels\Single003ViewModel.cs" />
+    <Compile Remove="Views\CatsPage.xaml.cs" />
+    <Compile Remove="Views\CL01AAADetailPage.xaml.cs" />
+    <Compile Remove="Views\CL01BBBDetailPage.xaml.cs" />
+    <Compile Remove="Views\Cluster001Page.xaml.cs" />
+    <Compile Remove="Views\Cluster002Page.xaml.cs" />
+    <Compile Remove="Views\DogsPage.xaml.cs" />
+    <Compile Remove="Views\Single001DetailPage.xaml.cs" />
+    <Compile Remove="Views\Single001Page.xaml.cs" />
+    <Compile Remove="Views\Single003DetailPage.xaml.cs" />
+    <Compile Remove="Views\Single003Page.xaml.cs" />
+    <Compile Remove="Views\ToolBarMenu\BaseGuide.xaml.cs" />
+    <Compile Remove="Views\ToolBarMenu\BaseListGuide.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Views\CatsPage.xaml" />
+    <EmbeddedResource Remove="Views\CL01AAADetailPage.xaml" />
+    <EmbeddedResource Remove="Views\CL01BBBDetailPage.xaml" />
+    <EmbeddedResource Remove="Views\Cluster001Page.xaml" />
+    <EmbeddedResource Remove="Views\Cluster002.xaml" />
+    <EmbeddedResource Remove="Views\Cluster002Page.xaml" />
+    <EmbeddedResource Remove="Views\DogsPage.xaml" />
+    <EmbeddedResource Remove="Views\Single001DetailPage.xaml" />
+    <EmbeddedResource Remove="Views\Single001Page.xaml" />
+    <EmbeddedResource Remove="Views\Single003DetailPage.xaml" />
+    <EmbeddedResource Remove="Views\Single003Page.xaml" />
+    <EmbeddedResource Remove="Views\ToolBarMenu\BaseGuide.xaml" />
+    <EmbeddedResource Remove="Views\ToolBarMenu\BaseListGuide.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="AA_Utilities\yyy" />
+    <None Remove="kranken.txt" />
+    <None Remove="Views\CL01AAADetailPage.xaml" />
+    <None Remove="Views\CatsPage.xaml" />
+    <None Remove="Views\Cluster001Page.xaml" />
+    <None Remove="Views\Cluster002.xaml" />
+    <None Remove="Views\Cluster002Page.xaml" />
+    <None Remove="Views\DogsPage.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="kranken.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.1905" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1-preview2" />
+    <PackageReference Include="Plugin.Toast" Version="2.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\DogsDetailPage.xaml.cs">
+      <DependentUpon>DogsDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Call_911_Detail.xaml.cs">
+      <DependentUpon>Call_911_Detail.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Call_911.xaml.cs">
+      <DependentUpon>Call_911.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Views\FindHospital.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\HospitalList.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <Policies>
+          <DotNetNamingPolicy DirectoryNamespaceAssociation="PrefixedHierarchical" ResourceNamePolicy="MSBuild" />
+        </Policies>
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+</Project>

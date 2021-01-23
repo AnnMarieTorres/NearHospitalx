@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+  x:Class="NearHspt.AppShell"
+  xmlns="http://xamarin.com/schemas/2014/forms"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  xmlns:controls="clr-namespace:NearHspt.Controls"
+  xmlns:views="clr-namespace:NearHspt.Views"
+  FlyoutHeaderBehavior="CollapseOnScroll"
+  Navigated="OnNavigated"
+  Navigating="OnNavigating">
+  <Shell.Resources>
+    <Style x:Key="BaseStyle" TargetType="Element">
+      <Setter Property="Shell.BackgroundColor" Value="#455A64" />
+      <Setter Property="Shell.ForegroundColor" Value="White" />
+      <Setter Property="Shell.TitleColor" Value="White" />
+      <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
+      <Setter Property="Shell.UnselectedColor" Value="#95FFFFFF" />
+    </Style>
+    <Style BasedOn="{StaticResource BaseStyle}" TargetType="ShellItem" />
+    <Style
+      x:Key="Shell001"
+      BasedOn="{StaticResource BaseStyle}"
+      TargetType="Element">
+      <Setter Property="Shell.BackgroundColor" Value="#039BE6" />
+    </Style>
+    <Style
+      x:Key="Shell002"
+      BasedOn="{StaticResource BaseStyle}"
+      TargetType="Element">
+      <Setter Property="Shell.BackgroundColor" Value="#689F39" />
+    </Style>
+    <Style
+      x:Key="Shell003"
+      BasedOn="{StaticResource BaseStyle}"
+      TargetType="Element">
+      <Setter Property="Shell.BackgroundColor" Value="#ED3B3B" />
+    </Style>
+    <Style
+      x:Key="Shell004"
+      BasedOn="{StaticResource BaseStyle}"
+      TargetType="Element">
+      <Setter Property="Shell.BackgroundColor" Value="#546DFE" />
+    </Style>
+    <Style
+      x:Key="AboutShell"
+      BasedOn="{StaticResource BaseStyle}"
+      TargetType="Element">
+      <Setter Property="Shell.BackgroundColor" Value="#96d1ff" />
+    </Style>
+  </Shell.Resources>
+
+  <Shell.FlyoutHeader>
+    <controls:FlyoutHeader />
+  </Shell.FlyoutHeader>
+
+  <!--  Template for FlyoutHeader  -->
+  <!--  Not required, as the FlyoutHeader is set above  -->
+  <!--<Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="Black"
+                  HeightRequest="200">
+                <Image Aspect="AspectFill"
+                       Source="xamarinstore.jpg"
+                       Opacity="0.6" />
+                <Label Text="Equipment"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center" />
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>-->
+
+  <!--  Template each FlyoutItem  -->
+  <!--<Shell.ItemTemplate>
+        <DataTemplate>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.2*" />
+                    <ColumnDefinition Width="0.8*" />
+                </Grid.ColumnDefinitions>
+                <Image Source="{Binding Icon}"
+                       Margin="5"
+                       HeightRequest="45" />
+                <Label Grid.Column="1"
+                       Text="{Binding Title}"
+                       FontAttributes="Italic"
+                       VerticalTextAlignment="Center" />
+            </Grid>
+        </DataTemplate>
+    </Shell.ItemTemplate>-->
+
+  <!--  Template each MenuItem  -->
+  <!--    <Shell.MenuItemTemplate>
+        <DataTemplate>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.2*" />
+                    <ColumnDefinition Width="0.8*" />
+                </Grid.ColumnDefinitions>
+                <Image Source="{Binding Icon}"
+                       Margin="5"
+                       HeightRequest="45" />
+                <Label Grid.Column="1"
+                       Text="{Binding Text}"
+                       FontAttributes="Italic"
+                       VerticalTextAlignment="Center" />
+            </Grid>
+        </DataTemplate>
+    </Shell.MenuItemTemplate>-->
+
+  <FlyoutItem
+    Title="All Near Hospitals"
+    FlyoutDisplayOptions="AsMultipleItems"
+    Route="flyoutItemRoute">
+
+    <!--
+      Shell has implicit conversion operators that enable the Shell visual hierarchy to be simplified.
+      This is possible because a subclassed Shell object can only ever contain a FlyoutItem object or a TabBar object,
+      which can only ever contain Tab objects, which can only ever contain ShellContent objects.
+      
+      The code below demonstrates using these implicit conversion operators to simplify the visual hierarchy. Code that
+      relies on the implicit conversion operators will produce intellisense errors in the Visual Studio XAML editor. However,
+      this code is valid and does build.
+    -->
+    <ShellContent
+      Title="Find Hospitals"
+      ContentTemplate="{DataTemplate views:FindHospital}"
+      Icon="tab_feed.png"
+      Route="single01Route"
+      Style="{StaticResource Shell002}" />
+    <ShellContent
+      Title="Call 911"
+      ContentTemplate="{DataTemplate views:Call_911}"
+      Icon="tab_language.png"
+      Route="single02Route"
+      Style="{StaticResource Shell003}" />
+    <!--<ShellContent
+      Title="Single03"
+      ContentTemplate="{DataTemplate views:Single003Page}"
+      Icon="tab_phone.png"
+      Route="single03Route"
+      Style="{StaticResource Shell004}" />-->
+  </FlyoutItem>
+
+  <ShellContent
+    Title="How Does It Work?"
+    ContentTemplate="{DataTemplate views:BaseHowItWorks}"
+    Icon="info.png"
+    Route="basehowitworks"
+    Style="{StaticResource AboutShell}" />
+
+  <ShellContent
+    Title="Troubleshooting?"
+    ContentTemplate="{DataTemplate views:BaseTrouble}"
+    Icon="info.png"
+    Route="basetrouble"
+    Style="{StaticResource AboutShell}" />
+
+  <ShellContent
+    Title="Feedback"
+    ContentTemplate="{DataTemplate views:BaseFeedback}"
+    Icon="info.png"
+    Route="basefeedback"
+    Style="{StaticResource AboutShell}" />
+
+  <ShellContent
+    Title="Share this app"
+    ContentTemplate="{DataTemplate views:BaseShare}"
+    Icon="info.png"
+    Route="baseshare"
+    Style="{StaticResource AboutShell}" />
+
+  <ShellContent
+    Title="Legal Disclaimer"
+    ContentTemplate="{DataTemplate views:BaseDisclaimer}"
+    Icon="info.png"
+    Route="basedisclaimer"
+    Style="{StaticResource AboutShell}" />
+
+  <ShellContent
+    Title="Privacy"
+    ContentTemplate="{DataTemplate views:BasePrivacy}"
+    Icon="info.png"
+    Route="baseprivacy"
+    Style="{StaticResource AboutShell}" />
+
+  <ShellContent
+    Title="About"
+    ContentTemplate="{DataTemplate views:BaseAbout}"
+    Icon="info.png"
+    Route="baseabout"
+    Style="{StaticResource AboutShell}" />
+
+  <ShellContent
+    Title="Contact Us"
+    ContentTemplate="{DataTemplate views:BaseContactUs}"
+    Icon="info.png"
+    Route="basecontactus"
+    Style="{StaticResource AboutShell}" />
+
+
+
+
+
+  <!--<MenuItem
+    Command="{Binding RandomPageCommand}"
+    IconImageSource="random.png"
+    Text="Random" />
+
+  <MenuItem
+    Command="{Binding HelpCommand}"
+    CommandParameter="https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell"
+    IconImageSource="help.png"
+    Text="Help" />-->
+
+</Shell>

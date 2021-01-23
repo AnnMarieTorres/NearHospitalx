@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<x1:ContentPage
+  x:Class="NearHspt.Views.BaseAbout"
+  xmlns="http://xamarin.com/schemas/2014/forms"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:x1="http://xamarin.com/schemas/2014/forms"
+  mc:Ignorable="d">
+
+  <x1:ContentPage.Padding>
+    <x1:OnPlatform x:TypeArguments="Thickness">
+      <x1:On Platform="iOS" Value="0, 20, 0, 0" />
+      <x1:On Platform="Android" Value="0, 0, 0, 0" />
+      <x1:On Platform="UWP" Value="0, 0, 0, 0" />
+    </x1:OnPlatform>
+  </x1:ContentPage.Padding>
+
+  <x1:StackLayout>
+    <x1:ScrollView VerticalScrollBarVisibility="Always">
+
+      <!--  ==================  -->
+      <x1:StackLayout x:Name="MainStack" BackgroundColor="WhiteSmoke">
+
+        <!--  1  -->
+        <x1:Frame
+          x:Name="LocationFrame"
+          Margin="10,10,10,10"
+          BackgroundColor="WhiteSmoke"
+          BorderColor="Gray"
+          HorizontalOptions="FillAndExpand">
+
+          <x1:StackLayout
+            x:Name="MainFrameStack0"
+            Padding="15"
+            HorizontalOptions="FillAndExpand">
+
+            <!--  Border around 1  -->
+            <Frame
+              Padding="8,0,8,0"
+              BorderColor="Green"
+              CornerRadius="3"
+              HasShadow="True"
+              HorizontalOptions="FillAndExpand">
+
+
+              <!--  1 content  -->
+              <x1:Label
+                x:Name="content100"
+                Margin="0,5,0,5"
+                BackgroundColor="LightGray"
+                FontSize="Small"
+                HorizontalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                Text="" />
+
+            </Frame>
+
+          </x1:StackLayout>
+        </x1:Frame>
+
+        <Button
+          x:Name="moreInfo"
+          Margin="0,0,10,10"
+          BackgroundColor="LightBlue"
+          BorderColor="Blue"
+          BorderWidth="0"
+          Clicked="moreInfo_Clicked"
+          CornerRadius="10"
+          FontSize="Micro"
+          HorizontalOptions="End"
+          Text="More Info. - Web Site"
+          TextColor="Black"
+          VerticalOptions="Center" />
+
+
+      </x1:StackLayout>
+    </x1:ScrollView>
+
+  </x1:StackLayout>
+</x1:ContentPage>

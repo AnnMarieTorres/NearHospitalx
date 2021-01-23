@@ -1,0 +1,54 @@
+﻿<Properties StartupConfiguration="{DA067342-E7FA-4C40-8809-21401D523D47}|Default">
+  <MonoDevelop.Ide.ItemProperties.NearHspt.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A68381B2-13DB-4AC1-BB43-DBEF962F56DA" />
+  <MonoDevelop.Ide.ItemProperties.NearHspt.Android PreferredExecutionTarget="Android.Pixel_3_API_28" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NearHspt/App.xaml.cs">
+    <Files>
+      <File FileName="NearHspt/App.xaml.cs" Line="174" Column="4" />
+      <File FileName="NearHspt/Controls/FlyoutHeader.xaml" />
+      <File FileName="NearHspt/Views/FindHospital.xaml" />
+      <File FileName="NearHspt/Views/FindHospital.xaml.cs" />
+      <File FileName="NearHspt/Views/HospitalList.xaml.cs" />
+      <File FileName="NearHspt/App.xaml" />
+      <File FileName="NearHspt/AppShell.xaml" />
+      <File FileName="NearHspt/AppShell.xaml.cs" />
+      <File FileName="NearHspt/Alles.cs" />
+      <File FileName="NearHspt/Controls/FlyoutHeader.xaml.cs" />
+      <File FileName="NearHspt.Android/MainActivity.cs" />
+      <File FileName="NearHspt.Android/NearHspt.Android.csproj" />
+      <File FileName="NearHspt/Resx/AppResources.resx" />
+      <File FileName="../../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" />
+      <File FileName="../../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Aapt2.targets" />
+      <File FileName="../../../../.nuget/packages/xamarin.essentials/1.6.1-preview2/readme.txt" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NearHspt" expanded="True" selected="True">
+            <Node name="NearHspt" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+            </Node>
+            <Node name="NearHspt.Android" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+                <Node name="drawable-de" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="NearHspt.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Debugger.DebugSourceFolders />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

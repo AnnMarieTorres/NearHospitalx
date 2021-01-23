@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{2EAAEE32-09F5-4390-9CA5-C67B7CE09BA2}|Default">
+  <MonoDevelop.Ide.ItemProperties.NearHspt.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9F66A1C8-DB6A-4C48-AE9A-6D4433D6C3E9" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NearHspt.iOS" expanded="True">
+            <Node name="NearHspt.iOS" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

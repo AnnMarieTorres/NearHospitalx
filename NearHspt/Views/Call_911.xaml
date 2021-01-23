@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+  x:Class="NearHspt.Views.Call_911"
+  xmlns="http://xamarin.com/schemas/2014/forms"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  xmlns:controls="clr-namespace:NearHspt.Controls"
+  xmlns:data="clr-namespace:NearHspt.Data"
+  xmlns:views="clr-namespace:NearHspt.Views"
+  xmlns:x1="http://xamarin.com/schemas/2014/forms"
+  Title="Call 911">
+
+
+  <ScrollView>
+
+    <!--  All material inside outer Frame  -->
+    <x1:StackLayout
+      x:Name="MainStack"
+      Margin="10,10,10,10"
+      BackgroundColor="WhiteSmoke"
+      Spacing="0">
+
+      <!--  Outer Frame, framing all other Borders  -->
+      <x1:Frame
+        x:Name="LocationFrame"
+        Margin="0,0,0,0"
+        Padding="0,0,0,0"
+        BackgroundColor="White"
+        BorderColor="LightGray"
+        HorizontalOptions="FillAndExpand">
+
+        <!--  Holding (3) sections via 'Borders'  -->
+        <x1:StackLayout
+          x:Name="MainFrameStack"
+          Margin="0"
+          BackgroundColor="WhiteSmoke"
+          HorizontalOptions="FillAndExpand"
+          Spacing="0">
+
+
+
+          <!--  pre-coded 911  -->
+          <Frame
+            Margin="10,10,10,10"
+            Padding="0,0,0,0"
+            BackgroundColor="WhiteSmoke"
+            BorderColor="Green"
+            CornerRadius="6"
+            HasShadow="True"
+            HorizontalOptions="FillAndExpand">
+
+
+
+            <StackLayout Padding="16,0,16,16">
+
+              <StackLayout>
+                <Label
+                Margin="0,0,0,0"
+                Padding="5,3,0,3"
+                BackgroundColor="LightGray"
+                FontSize="10"
+                Text="Pre-Coded 911, or any manually entered Tel.#"
+                TextColor="DarkBlue" />
+
+
+                <Entry
+                x:Name="EntryNumber"
+                Margin="0,10,10,0"
+                TextColor="Red"
+                BackgroundColor="LightYellow"
+                FontAttributes="Bold,Italic"
+                Keyboard="Telephone"
+                Placeholder="Phone Number"
+                Text="911"
+                FontSize="Large" />
+              </StackLayout>
+
+              <StackLayout>
+                <Button
+                x:Name="DialButton"
+                BackgroundColor="LightBlue"
+                BorderColor="Blue"
+                BorderWidth="2"
+                Clicked="DialButton_Clicked"
+                CornerRadius="10"
+                FontSize="Micro"
+                HorizontalOptions="Center"
+                ImageSource="ambulance.png"
+                Text="Dial"
+                WidthRequest="120"
+                TextColor="Black"
+                VerticalOptions="Center" />
+              </StackLayout>
+
+
+            </StackLayout>
+
+
+
+
+
+
+
+
+
+            <!--  Details about current Location  -->
+          </Frame>
+          <Frame>
+            <StackLayout>
+              <Label
+                Margin="12"
+                Padding="10"
+                BackgroundColor="LightGray"
+                FontAttributes="Bold"
+                FontSize="16"
+                Text="Dialed 911 by mistake? (*)"
+                TextColor="DarkBlue" />
+
+              <Label
+                Margin="12"
+                Padding="10"
+                BackgroundColor="LightGray"
+                FontSize="12"
+                Text="Should you call 911 by accident, please do not hang up.&#10;&#10;Stay on the line, let a Dispatcher know it was unintentionally - it can happen&#10;&#10;If in the spur of a mement you indeed hang up, PLEASE:&#10; - either answer a Dispatcher's return call, or:&#10; - Answer a possible text message&#10;&#10;and let us know that you're OK."
+                TextColor="DarkBlue" />
+
+            </StackLayout>
+          </Frame>
+
+
+        </x1:StackLayout>
+
+      </x1:Frame>
+
+    </x1:StackLayout>
+
+  </ScrollView>
+</ContentPage>

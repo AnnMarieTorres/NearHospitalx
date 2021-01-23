@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "aqPvaMZ3MdQZxM/WgSqkm2eYSk36uMBMkNT8cXv/V06w1n92tCXlYrykMmC8lK4Dn4+uW1URg70W9cz6dHKVVw==",
+  "success": true,
+  "projectFilePath": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/NearHspt.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/annmariepigna-torres/.nuget/packages/plugin.toast/2.2.0/plugin.toast.2.2.0.nupkg.sha512",
+    "/Users/annmariepigna-torres/.nuget/packages/sqlite-net-pcl/1.8.0-beta/sqlite-net-pcl.1.8.0-beta.nupkg.sha512",
+    "/Users/annmariepigna-torres/.nuget/packages/sqlitepclraw.bundle_green/2.0.4/sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
+    "/Users/annmariepigna-torres/.nuget/packages/sqlitepclraw.core/2.0.4/sqlitepclraw.core.2.0.4.nupkg.sha512",
+    "/Users/annmariepigna-torres/.nuget/packages/sqlitepclraw.provider.dynamic_cdecl/2.0.4/sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
+    "/Users/annmariepigna-torres/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
+    "/Users/annmariepigna-torres/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/annmariepigna-torres/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/annmariepigna-torres/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "/Users/annmariepigna-torres/.nuget/packages/xamarin.essentials/1.6.1-preview2/xamarin.essentials.1.6.1-preview2.nupkg.sha512",
+    "/Users/annmariepigna-torres/.nuget/packages/xamarin.forms/5.0.0.1905/xamarin.forms.5.0.0.1905.nupkg.sha512"
+  ],
+  "logs": []
+}

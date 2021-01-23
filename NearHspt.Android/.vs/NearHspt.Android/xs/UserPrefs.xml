@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{DA067342-E7FA-4C40-8809-21401D523D47}|Default">
+  <MonoDevelop.Ide.ItemProperties.NearHspt.Android PreferredExecutionTarget="Android.Pixel_3_API_28" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NearHspt.Android" expanded="True">
+            <Node name="NearHspt.Android" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
