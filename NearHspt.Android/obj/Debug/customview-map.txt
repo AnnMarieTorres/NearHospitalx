@@ -1,6 +1,4 @@
 @string/appbar_scrolling_view_behavior;/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.Android/obj/Debug/lp/44/jl/res/layout/rootlayout.xml
-adaptive-icon;obj/Debug/res/mipmap-anydpi-v26/icon.xml
-adaptive-icon;obj/Debug/res/mipmap-anydpi-v26/icon_round.xml
 alpha;/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.Android/obj/Debug/lp/44/jl/res/anim/enterfromleft.xml
 alpha;/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.Android/obj/Debug/lp/44/jl/res/anim/exittoleft.xml
 androidx.appcompat.widget.Toolbar;/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.Android/obj/Debug/lp/44/jl/res/layout/fallbacktoolbardonotuse.xml
@@ -11,8 +9,6 @@ androidx.coordinatorlayout.widget.CoordinatorLayout;/Users/annmariepigna-torres/
 androidx.coordinatorlayout.widget.CoordinatorLayout;/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.Android/obj/Debug/lp/44/jl/res/layout/shellcontent.xml
 animation-list;obj/Debug/res/anim/loadinganimation.xml
 attr;/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.Android/obj/Debug/lp/44/jl/res/values/attrs.xml
-background;obj/Debug/res/mipmap-anydpi-v26/icon.xml
-background;obj/Debug/res/mipmap-anydpi-v26/icon_round.xml
 bitmap;obj/Debug/res/drawable/backgroundstyle.xml
 bitmap;obj/Debug/res/drawable/splash.xml
 cache-path;/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.Android/obj/Debug/lp/43/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
@@ -27,8 +23,6 @@ com.google.android.material.tabs.TabLayout;/Users/annmariepigna-torres/Desktop/A
 declare-styleable;/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.Android/obj/Debug/lp/44/jl/res/values/attrs.xml
 external-cache-path;/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.Android/obj/Debug/lp/43/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
 external-path;/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.Android/obj/Debug/lp/43/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
-foreground;obj/Debug/res/mipmap-anydpi-v26/icon.xml
-foreground;obj/Debug/res/mipmap-anydpi-v26/icon_round.xml
 FrameLayout;/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.Android/obj/Debug/lp/44/jl/res/layout/bottomtablayout.xml
 ImageView;obj/Debug/res/layout/splashlayout.xml
 item;/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.Android/obj/Debug/lp/44/jl/res/values/styles.xml

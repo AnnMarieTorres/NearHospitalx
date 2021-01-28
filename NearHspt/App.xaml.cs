@@ -108,69 +108,69 @@ namespace NearHspt
             throw new NotImplementedException();
         }
     }
-   
-//    private bool NewMethod
-//    {
-//        get
-//        {
-//            Xamarin.Forms.NavigationPage MainPage = null;
-//            if (MainPage is ContentPage)
-//            {
-//                promptToConfirmExit = true;
-//            }
 
-//            else if (MainPage is Xamarin.Forms.NavigationPage detailNavigationPage)
-//            {
-//                promptToConfirmExit = detailNavigationPage.Navigation.NavigationStack.Count <= 1;
-//            }
-//            else if (MainPage is Xamarin.Forms.NavigationPage mainPage)
-//            {
-//                if (mainPage.CurrentPage is Xamarin.Forms.TabbedPage tabbedPage
-//                    && tabbedPage.CurrentPage is Xamarin.Forms.NavigationPage navigationPage)
-//                {
-//                    promptToConfirmExit = navigationPage.Navigation.NavigationStack.Count <= 1;
-//                }
-//                else
-//                {
-//                    promptToConfirmExit = mainPage.Navigation.NavigationStack.Count <= 1;
-//                }
-//            }
-//            else if (MainPage is Xamarin.Forms.TabbedPage tabbedPage
-//                && tabbedPage.CurrentPage is Xamarin.Forms.NavigationPage navigationPage)
-//            {
-//                promptToConfirmExit = navigationPage.Navigation.NavigationStack.Count <= 1;
-//            }
+    //    private bool NewMethod
+    //    {
+    //        get
+    //        {
+    //            Xamarin.Forms.NavigationPage MainPage = null;
+    //            if (MainPage is ContentPage)
+    //            {
+    //                promptToConfirmExit = true;
+    //            }
 
-//            return promptToConfirmExit;
-//        }
-//    }
+    //            else if (MainPage is Xamarin.Forms.NavigationPage detailNavigationPage)
+    //            {
+    //                promptToConfirmExit = detailNavigationPage.Navigation.NavigationStack.Count <= 1;
+    //            }
+    //            else if (MainPage is Xamarin.Forms.NavigationPage mainPage)
+    //            {
+    //                if (mainPage.CurrentPage is Xamarin.Forms.TabbedPage tabbedPage
+    //                    && tabbedPage.CurrentPage is Xamarin.Forms.NavigationPage navigationPage)
+    //                {
+    //                    promptToConfirmExit = navigationPage.Navigation.NavigationStack.Count <= 1;
+    //                }
+    //                else
+    //                {
+    //                    promptToConfirmExit = mainPage.Navigation.NavigationStack.Count <= 1;
+    //                }
+    //            }
+    //            else if (MainPage is Xamarin.Forms.TabbedPage tabbedPage
+    //                && tabbedPage.CurrentPage is Xamarin.Forms.NavigationPage navigationPage)
+    //            {
+    //                promptToConfirmExit = navigationPage.Navigation.NavigationStack.Count <= 1;
+    //            }
 
-//    public bool IsToastExitConfirmation(bool value)
-//    {
-//        bool IsToastExitConfirmation = false;
-//        return Preferences.Get(nameof(IsToastExitConfirmation), false);
-//    }
+    //            return promptToConfirmExit;
+    //        }
+    //    }
 
-//    public void SetIsToastExitConfirmation(bool value)
-//    {
-//        bool IsToastExitConfirmation = false;
-//        Preferences.Set(nameof(IsToastExitConfirmation), value);
-//    }
+    //    public bool IsToastExitConfirmation(bool value)
+    //    {
+    //        bool IsToastExitConfirmation = false;
+    //        return Preferences.Get(nameof(IsToastExitConfirmation), false);
+    //    }
 
-//    string nameof(object isToastExitConfirmation)
-//    {
-//        throw new NotImplementedException();
-//    }
+    //    public void SetIsToastExitConfirmation(bool value)
+    //    {
+    //        bool IsToastExitConfirmation = false;
+    //        Preferences.Set(nameof(IsToastExitConfirmation), value);
+    //    }
 
-//    string Nameof(object isToastExitConfirmation)
-//    {
-//        throw new NotImplementedException();
-//    }
+    //    string nameof(object isToastExitConfirmation)
+    //    {
+    //        throw new NotImplementedException();
+    //    }
 
-//    private object IsToastExitConfirmation()
-//    {
-//        throw new NotImplementedException();
-//    }
-//}
+    //    string Nameof(object isToastExitConfirmation)
+    //    {
+    //        throw new NotImplementedException();
+    //    }
+
+    //    private object IsToastExitConfirmation()
+    //    {
+    //        throw new NotImplementedException();
+    //    }
+    //}
 }
 

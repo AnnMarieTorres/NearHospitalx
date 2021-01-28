@@ -1,87 +1,79 @@
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/Xaminals.iOS.exe.config
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/Xaminals.iOS.exe
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/Xaminals.iOS.pdb
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/SQLite-net.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_v2.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.nativelibrary.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.core.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.provider.dynamic_cdecl.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/System.Runtime.CompilerServices.Unsafe.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/NearHspt.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/NearHspt.pdb
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/zh-Hans/NearHspt.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/zh-Hant/NearHspt.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/ms/NearHspt.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/ja/NearHspt.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/pt/NearHspt.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/pt-BR/NearHspt.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/de/NearHspt.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/id/NearHspt.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/fr/NearHspt.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/es/NearHspt.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/bin/iPhoneSimulator/Debug/de-CH/NearHspt.resources.dll
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-14.2/ibtool/_BundleResourceWithLogicalName.items
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-14.2/actool/_PartialAppManifest.items
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-14.2/actool/_BundleResourceWithLogicalName.items
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-14.2/coremlc/_PartialAppManifest.items
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-14.2/coremlc/_BundleResourceWithLogicalName.items
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-14.2/optimized/help.png
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-14.2/optimized/help@2x.png
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-14.2/optimized/info.png
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-14.2/optimized/info@2x.png
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-14.2/optimized/random.png
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-14.2/optimized/random@2x.png
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-14.2/optimized/3bar.png
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-14.2/optimized/3bar@2x.png
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-14.2/optimized/back.png
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-14.2/optimized/back@2x.png
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-14.2/optimized/
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/obj/iPhoneSimulator/Debug/NearHspt.iOS.csprojAssemblyReference.cache
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/obj/iPhoneSimulator/Debug/Xaminals.iOS.exe.config
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/obj/iPhoneSimulator/Debug/NearHspt.iOS.csproj.CoreCompileInputs.cache
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/obj/iPhoneSimulator/Debug/NearHspt.iOS.csproj.CopyComplete
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/obj/iPhoneSimulator/Debug/Xaminals.iOS.exe
-/Users/annmariepigna-torres/Desktop/071NearHospital/NearHspt.iOS/obj/iPhoneSimulator/Debug/Xaminals.iOS.pdb
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/Xaminals.iOS.exe
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/Xaminals.iOS.pdb
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/NearHspt.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/NearHspt.pdb
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/zh-Hans/NearHspt.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/zh-Hant/NearHspt.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/ms/NearHspt.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/ja/NearHspt.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/pt/NearHspt.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/pt-BR/NearHspt.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/de/NearHspt.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/id/NearHspt.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/fr/NearHspt.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/es/NearHspt.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/bin/iPhoneSimulator/Debug/de-CH/NearHspt.resources.dll
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/obj/iPhoneSimulator/Debug/coremlc/_PartialAppManifest.items
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/obj/iPhoneSimulator/Debug/coremlc/_BundleResourceWithLogicalName.items
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/obj/iPhoneSimulator/Debug/optimized/help.png
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/obj/iPhoneSimulator/Debug/optimized/help@2x.png
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/obj/iPhoneSimulator/Debug/optimized/info.png
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/obj/iPhoneSimulator/Debug/optimized/info@2x.png
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/obj/iPhoneSimulator/Debug/optimized/random.png
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/obj/iPhoneSimulator/Debug/optimized/random@2x.png
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/obj/iPhoneSimulator/Debug/optimized/3bar.png
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/obj/iPhoneSimulator/Debug/optimized/3bar@2x.png
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/obj/iPhoneSimulator/Debug/optimized/back.png
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/obj/iPhoneSimulator/Debug/optimized/back@2x.png
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/obj/iPhoneSimulator/Debug/optimized/
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/obj/iPhoneSimulator/Debug/NearHspt.iOS.csprojAssemblyReference.cache
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/obj/iPhoneSimulator/Debug/NearHspt.iOS.csproj.CoreCompileInputs.cache
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/obj/iPhoneSimulator/Debug/NearHspt.iOS.csproj.CopyComplete
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/obj/iPhoneSimulator/Debug/Xaminals.iOS.exe
+/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/obj/iPhoneSimulator/Debug/Xaminals.iOS.pdb

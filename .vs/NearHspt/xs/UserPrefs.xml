@@ -1,44 +1,36 @@
 ﻿<Properties StartupConfiguration="{DA067342-E7FA-4C40-8809-21401D523D47}|Default">
-  <MonoDevelop.Ide.ItemProperties.NearHspt.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A68381B2-13DB-4AC1-BB43-DBEF962F56DA" />
-  <MonoDevelop.Ide.ItemProperties.NearHspt.Android PreferredExecutionTarget="Android.Pixel_3_API_28" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="NearHspt/App.xaml.cs">
+  <MonoDevelop.Ide.ItemProperties.NearHspt.Android AndroidDesignerPreferredDevice="Nexus 4" TriggeredFromHotReload="False" PreferredExecutionTarget="Android.pixel_3_q_10_0_-_api_29" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../../Library/Frameworks/Xamarin.Android.framework/Versions/11.1.0.26/lib/xamarin.android/xbuild/Xamarin/Android/Xamarin.Android.Common.targets">
     <Files>
-      <File FileName="NearHspt/App.xaml.cs" Line="174" Column="4" />
-      <File FileName="NearHspt/Controls/FlyoutHeader.xaml" />
-      <File FileName="NearHspt/Views/FindHospital.xaml" />
-      <File FileName="NearHspt/Views/FindHospital.xaml.cs" />
-      <File FileName="NearHspt/Views/HospitalList.xaml.cs" />
-      <File FileName="NearHspt/App.xaml" />
-      <File FileName="NearHspt/AppShell.xaml" />
-      <File FileName="NearHspt/AppShell.xaml.cs" />
-      <File FileName="NearHspt/Alles.cs" />
-      <File FileName="NearHspt/Controls/FlyoutHeader.xaml.cs" />
-      <File FileName="NearHspt.Android/MainActivity.cs" />
-      <File FileName="NearHspt.Android/NearHspt.Android.csproj" />
-      <File FileName="NearHspt/Resx/AppResources.resx" />
-      <File FileName="../../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" />
-      <File FileName="../../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Aapt2.targets" />
+      <File FileName="../../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Aapt2.targets" Line="232" Column="62" />
+      <File FileName="NearHspt.Android/Resources/mipmap-anydpi-v26/icon_round.xml" />
       <File FileName="../../../../.nuget/packages/xamarin.essentials/1.6.1-preview2/readme.txt" />
+      <File FileName="NearHspt.Android/Resources/values/style.xml" />
+      <File FileName="NearHspt.Android/Resources/mipmap-anydpi-v26/icon.xml" />
+      <File FileName="../../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="508" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="NearHspt" expanded="True" selected="True">
+          <Node name="NearHspt" expanded="True">
             <Node name="NearHspt" expanded="True">
               <Node name="Dependencies" expanded="True">
                 <Node name="PackageDependencies" expanded="True" />
+                <Node name="SdkDependencies" expanded="True" />
               </Node>
-              <Node name="App.xaml" expanded="True" />
-              <Node name="AppShell.xaml" expanded="True" />
+              <Node name="AA_Utilities" expanded="True" />
             </Node>
-            <Node name="NearHspt.Android" expanded="True">
+            <Node name="NearHspt.Android" expanded="True" selected="True">
               <Node name="References" expanded="True" />
+              <Node name="Assets" expanded="True" />
+              <Node name="Properties" expanded="True" />
               <Node name="Resources" expanded="True">
-                <Node name="drawable" expanded="True" />
-                <Node name="drawable-de" expanded="True" />
+                <Node name="mipmap-anydpi-v26" expanded="True" />
+                <Node name="mipmap-hdpi" expanded="True" />
+                <Node name="mipmap-mdpi" expanded="True" />
+                <Node name="values" expanded="True" />
               </Node>
             </Node>
-            <Node name="NearHspt.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -50,5 +42,11 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Android debug arm64" Name="Android debug arm64">
+      <Items>
+        <StartupItem ItemId="{DA067342-E7FA-4C40-8809-21401D523D47}" ItemName="NearHspt.Android" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
 </Properties>

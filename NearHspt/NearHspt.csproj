@@ -20,6 +20,7 @@
     <None Remove="aaa_Save\**" />
     <None Remove="HospitalData\**" />
     <Compile Remove="Controls\FlyoutHeader.xaml 2.cs" />
+    <EmbeddedResource Remove="Views\ToolBarMenu\BaseGuide.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -82,7 +83,6 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.1905" />
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1-preview2" />
-    <PackageReference Include="Plugin.Toast" Version="2.2.0" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Views\DogsDetailPage.xaml.cs">

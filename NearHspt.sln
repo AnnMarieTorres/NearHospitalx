@@ -80,8 +80,8 @@ Global
 		{DA067342-E7FA-4C40-8809-21401D523D47}.AppStore|x86.ActiveCfg = Debug|Any CPU
 		{DA067342-E7FA-4C40-8809-21401D523D47}.AppStore|x86.Build.0 = Debug|Any CPU
 		{DA067342-E7FA-4C40-8809-21401D523D47}.AppStore|x86.Deploy.0 = Debug|Any CPU
-		{DA067342-E7FA-4C40-8809-21401D523D47}.Debug|Any CPU.ActiveCfg = Release|Any CPU
-		{DA067342-E7FA-4C40-8809-21401D523D47}.Debug|Any CPU.Deploy.0 = Release|Any CPU
+		{DA067342-E7FA-4C40-8809-21401D523D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA067342-E7FA-4C40-8809-21401D523D47}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{DA067342-E7FA-4C40-8809-21401D523D47}.Debug|ARM.ActiveCfg = Debug|Any CPU
 		{DA067342-E7FA-4C40-8809-21401D523D47}.Debug|ARM.Build.0 = Debug|Any CPU
 		{DA067342-E7FA-4C40-8809-21401D523D47}.Debug|ARM.Deploy.0 = Debug|Any CPU
@@ -117,7 +117,7 @@ Global
 		{DA067342-E7FA-4C40-8809-21401D523D47}.Release|x86.ActiveCfg = Release|Any CPU
 		{DA067342-E7FA-4C40-8809-21401D523D47}.Release|x86.Build.0 = Release|Any CPU
 		{DA067342-E7FA-4C40-8809-21401D523D47}.Release|x86.Deploy.0 = Release|Any CPU
-		{DA067342-E7FA-4C40-8809-21401D523D47}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{DA067342-E7FA-4C40-8809-21401D523D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EAAEE32-09F5-4390-9CA5-C67B7CE09BA2}.Ad-Hoc|Any CPU.ActiveCfg = Ad-Hoc|iPhoneSimulator
 		{2EAAEE32-09F5-4390-9CA5-C67B7CE09BA2}.Ad-Hoc|ARM.ActiveCfg = Ad-Hoc|iPhone
 		{2EAAEE32-09F5-4390-9CA5-C67B7CE09BA2}.Ad-Hoc|ARM64.ActiveCfg = Ad-Hoc|iPhone
@@ -136,7 +136,7 @@ Global
 		{2EAAEE32-09F5-4390-9CA5-C67B7CE09BA2}.AppStore|iPhoneSimulator.Build.0 = AppStore|iPhoneSimulator
 		{2EAAEE32-09F5-4390-9CA5-C67B7CE09BA2}.AppStore|x64.ActiveCfg = AppStore|iPhone
 		{2EAAEE32-09F5-4390-9CA5-C67B7CE09BA2}.AppStore|x86.ActiveCfg = AppStore|iPhone
-		{2EAAEE32-09F5-4390-9CA5-C67B7CE09BA2}.Debug|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{2EAAEE32-09F5-4390-9CA5-C67B7CE09BA2}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
 		{2EAAEE32-09F5-4390-9CA5-C67B7CE09BA2}.Debug|ARM.ActiveCfg = Debug|iPhone
 		{2EAAEE32-09F5-4390-9CA5-C67B7CE09BA2}.Debug|ARM64.ActiveCfg = Debug|iPhone
 		{2EAAEE32-09F5-4390-9CA5-C67B7CE09BA2}.Debug|iPhone.ActiveCfg = Debug|iPhone
@@ -158,7 +158,7 @@ Global
 		{2EAAEE32-09F5-4390-9CA5-C67B7CE09BA2}.Release|x86.ActiveCfg = Release|iPhone
 		{2EAAEE32-09F5-4390-9CA5-C67B7CE09BA2}.Release|x86.Build.0 = Release|iPhone
 		{2EAAEE32-09F5-4390-9CA5-C67B7CE09BA2}.Release|x86.Deploy.0 = Release|iPhone
-		{2EAAEE32-09F5-4390-9CA5-C67B7CE09BA2}.Debug|Any CPU.Build.0 = Release|iPhoneSimulator
+		{2EAAEE32-09F5-4390-9CA5-C67B7CE09BA2}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
 		{CD4DE9E8-2721-47F3-BA95-999B6F75FF27}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
 		{CD4DE9E8-2721-47F3-BA95-999B6F75FF27}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
 		{CD4DE9E8-2721-47F3-BA95-999B6F75FF27}.Ad-Hoc|ARM.ActiveCfg = Debug|Any CPU
@@ -187,7 +187,7 @@ Global
 		{CD4DE9E8-2721-47F3-BA95-999B6F75FF27}.AppStore|x64.Build.0 = Debug|Any CPU
 		{CD4DE9E8-2721-47F3-BA95-999B6F75FF27}.AppStore|x86.ActiveCfg = Debug|Any CPU
 		{CD4DE9E8-2721-47F3-BA95-999B6F75FF27}.AppStore|x86.Build.0 = Debug|Any CPU
-		{CD4DE9E8-2721-47F3-BA95-999B6F75FF27}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{CD4DE9E8-2721-47F3-BA95-999B6F75FF27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CD4DE9E8-2721-47F3-BA95-999B6F75FF27}.Debug|ARM.ActiveCfg = Debug|Any CPU
 		{CD4DE9E8-2721-47F3-BA95-999B6F75FF27}.Debug|ARM.Build.0 = Debug|Any CPU
 		{CD4DE9E8-2721-47F3-BA95-999B6F75FF27}.Debug|ARM64.ActiveCfg = Debug|Any CPU
@@ -214,7 +214,7 @@ Global
 		{CD4DE9E8-2721-47F3-BA95-999B6F75FF27}.Release|x64.Build.0 = Release|Any CPU
 		{CD4DE9E8-2721-47F3-BA95-999B6F75FF27}.Release|x86.ActiveCfg = Release|Any CPU
 		{CD4DE9E8-2721-47F3-BA95-999B6F75FF27}.Release|x86.Build.0 = Release|Any CPU
-		{CD4DE9E8-2721-47F3-BA95-999B6F75FF27}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{CD4DE9E8-2721-47F3-BA95-999B6F75FF27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -228,5 +228,10 @@ Global
 		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
 		$0.StandardHeader = $2
 		$0.VersionControlPolicy = $3
+		$0.TextStylePolicy = $4
+		$4.inheritsSet = null
+		$4.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $5
+		$5.scope = text/x-csharp
 	EndGlobalSection
 EndGlobal

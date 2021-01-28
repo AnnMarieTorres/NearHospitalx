@@ -88,10 +88,6 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
-            "Plugin.Toast": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.6.1-preview2, )"

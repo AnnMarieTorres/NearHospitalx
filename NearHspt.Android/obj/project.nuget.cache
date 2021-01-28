@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "qTSgPqFspeByNjeKveb//koRPMtMGwDRJ6gFS1IVwbTC+UXTNeVu59f04YhQgQssQRoY35do0rv7rv4lY71fBg==",
+  "dgSpecHash": "91EmSBIpMqBxr8tnhAP+yovk00buMJRY2H+mLNh2XG/6cFWZCWPJAMXoyBjx6BhsV9qsHLh6lQEVDhxojjye2Q==",
   "success": true,
   "projectFilePath": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.Android/NearHspt.Android.csproj",
   "expectedPackageFiles": [
-    "/Users/annmariepigna-torres/.nuget/packages/plugin.toast/2.2.0/plugin.toast.2.2.0.nupkg.sha512",
     "/Users/annmariepigna-torres/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/annmariepigna-torres/.nuget/packages/xamarin.androidx.activity/1.1.0.5/xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "/Users/annmariepigna-torres/.nuget/packages/xamarin.androidx.annotation/1.1.0.8/xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",

@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "UPd4daHo2akv8HQDp+ffRcyzzKgIJpIvxLOWFuL1MIkaQU5hXjX/FuowhVJQ+LVkXSDeLoDDlQux+RAbjNPaAQ==",
+  "dgSpecHash": "4TcMyiLOEw/gzO45xrnP7i7NlYtrb9KnfboFt3CvCWyP/oDlagKRCVnQ0YlFBV/etemTx8QULZ7wl8NNgS9Nnw==",
   "success": true,
   "projectFilePath": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt/NearHspt.csproj",
   "expectedPackageFiles": [
     "/Users/annmariepigna-torres/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/annmariepigna-torres/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
-    "/Users/annmariepigna-torres/.nuget/packages/plugin.toast/2.2.0/plugin.toast.2.2.0.nupkg.sha512",
     "/Users/annmariepigna-torres/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/annmariepigna-torres/.nuget/packages/xamarin.essentials/1.6.1-preview2/xamarin.essentials.1.6.1-preview2.nupkg.sha512",
     "/Users/annmariepigna-torres/.nuget/packages/xamarin.forms/5.0.0.1905/xamarin.forms.5.0.0.1905.nupkg.sha512"
