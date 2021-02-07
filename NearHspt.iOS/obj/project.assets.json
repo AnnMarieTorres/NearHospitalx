@@ -11,7 +11,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xamarin.Essentials/1.6.1-preview2": {
+      "Xamarin.Essentials/1.6.1": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -28,7 +28,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.1905": {
+      "Xamarin.Forms/5.0.0.1931": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -155,8 +155,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.6.1-preview2",
-          "Xamarin.Forms": "5.0.0.1905"
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Forms": "5.0.0.1931"
         },
         "compile": {
           "bin/placeholder/NearHspt.dll": {}
@@ -176,7 +176,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xamarin.Essentials/1.6.1-preview2": {
+      "Xamarin.Essentials/1.6.1": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -193,7 +193,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.1905": {
+      "Xamarin.Forms/5.0.0.1931": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -320,8 +320,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.6.1-preview2",
-          "Xamarin.Forms": "5.0.0.1905"
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Forms": "5.0.0.1931"
         },
         "compile": {
           "bin/placeholder/NearHspt.dll": {}
@@ -341,7 +341,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xamarin.Essentials/1.6.1-preview2": {
+      "Xamarin.Essentials/1.6.1": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -358,7 +358,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.1905": {
+      "Xamarin.Forms/5.0.0.1931": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -485,8 +485,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.6.1-preview2",
-          "Xamarin.Forms": "5.0.0.1905"
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Forms": "5.0.0.1931"
         },
         "compile": {
           "bin/placeholder/NearHspt.dll": {}
@@ -506,7 +506,7 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xamarin.Essentials/1.6.1-preview2": {
+      "Xamarin.Essentials/1.6.1": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -523,7 +523,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.1905": {
+      "Xamarin.Forms/5.0.0.1931": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -650,8 +650,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.6.1-preview2",
-          "Xamarin.Forms": "5.0.0.1905"
+          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Forms": "5.0.0.1931"
         },
         "compile": {
           "bin/placeholder/NearHspt.dll": {}
@@ -710,10 +710,10 @@
         "version.txt"
       ]
     },
-    "Xamarin.Essentials/1.6.1-preview2": {
-      "sha512": "TCmTzDxtI2xDsDzLn84wD8DvLGYzqwHG16Z34hTZEAnvTqNUBvLXSiECil1c6WAJ9lH+YbuyC6gIj6/GA/UNwg==",
+    "Xamarin.Essentials/1.6.1": {
+      "sha512": "gG1Bp4j4bpJQ0dp9MeBJQJ9c8xULauIlhc7Cx5Qw4J2K1c+4Glq5n+gkb9Pm0UA/CevXVqLK5ZXmZkuYI52FgA==",
       "type": "package",
-      "path": "xamarin.essentials/1.6.1-preview2",
+      "path": "xamarin.essentials/1.6.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -757,14 +757,14 @@
         "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
         "lib/xamarinwatchos10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.6.1-preview2.nupkg.sha512",
+        "xamarin.essentials.1.6.1.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/5.0.0.1905": {
-      "sha512": "0Kqs6vbNVdwFKd8RINMBqNziP0MYYPuko8LuyxVgAQ/wkrWh16Wl/8PFy10ykELF7bGwl0uKG7jJghQ7dh02ig==",
+    "Xamarin.Forms/5.0.0.1931": {
+      "sha512": "5xe9Oxtx2lHC0pinXGRLoUMEav3qxdtNemDF1UxCcxHcwv/Zcso2LhYw1LnemYhtESa6QGOD8dGM31A2pmteVg==",
       "type": "package",
-      "path": "xamarin.forms/5.0.0.1905",
+      "path": "xamarin.forms/5.0.0.1931",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -973,7 +973,7 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.5.0.0.1905.nupkg.sha512",
+        "xamarin.forms.5.0.0.1931.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -986,8 +986,8 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "NearHspt >= 1.0.0",
-      "Xamarin.Essentials >= 1.6.1-preview2",
-      "Xamarin.Forms >= 5.0.0.1905"
+      "Xamarin.Essentials >= 1.6.1",
+      "Xamarin.Forms >= 5.0.0.1931"
     ]
   },
   "packageFolders": {
@@ -996,11 +996,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/NearHspt.iOS.csproj",
+      "projectUniqueName": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/Using/NearHospitalx/NearHspt.iOS/NearHspt.iOS.csproj",
       "projectName": "Xaminals.iOS",
-      "projectPath": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/NearHspt.iOS.csproj",
+      "projectPath": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/Using/NearHospitalx/NearHspt.iOS/NearHspt.iOS.csproj",
       "packagesPath": "/Users/annmariepigna-torres/.nuget/packages/",
-      "outputPath": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/obj/",
+      "outputPath": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/Using/NearHospitalx/NearHspt.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1015,8 +1015,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt/NearHspt.csproj": {
-              "projectPath": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt/NearHspt.csproj"
+            "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/Using/NearHospitalx/NearHspt/NearHspt.csproj": {
+              "projectPath": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/Using/NearHospitalx/NearHspt/NearHspt.csproj"
             }
           }
         }
@@ -1027,11 +1027,11 @@
         "dependencies": {
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.6.1-preview2, )"
+            "version": "[1.6.1, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[5.0.0.1905, )"
+            "version": "[5.0.0.1931, )"
           }
         }
       }

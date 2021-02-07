@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ih+y7JBkov8I/kaGDLo1yqE62TCH5BmKRzg+BpCBSsuVmGkvBQInS7C1JjbQaP1vaXBqzUshgoQTLIw0pvm+Fw==",
+  "dgSpecHash": "ffYC9Usnur6uffHzH5SqcOm9RwCgYd0ks+TrLdtEWnBivDwDCflK0v5dM88TnLtl3DTGAmiYZa0lxMA0KDuzLQ==",
   "success": true,
-  "projectFilePath": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/NearHspt.iOS.csproj",
+  "projectFilePath": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/Using/NearHospitalx/NearHspt.iOS/NearHspt.iOS.csproj",
   "expectedPackageFiles": [
     "/Users/annmariepigna-torres/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
-    "/Users/annmariepigna-torres/.nuget/packages/xamarin.essentials/1.6.1-preview2/xamarin.essentials.1.6.1-preview2.nupkg.sha512",
-    "/Users/annmariepigna-torres/.nuget/packages/xamarin.forms/5.0.0.1905/xamarin.forms.5.0.0.1905.nupkg.sha512"
+    "/Users/annmariepigna-torres/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/annmariepigna-torres/.nuget/packages/xamarin.forms/5.0.0.1931/xamarin.forms.5.0.0.1931.nupkg.sha512"
   ],
   "logs": []
 }

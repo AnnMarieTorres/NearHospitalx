@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "91EmSBIpMqBxr8tnhAP+yovk00buMJRY2H+mLNh2XG/6cFWZCWPJAMXoyBjx6BhsV9qsHLh6lQEVDhxojjye2Q==",
+  "dgSpecHash": "rq31kbEpBPjm7GtzsofE3tVfL4QPQtGaSPAW0F+27fCStkMR0bvsPtcy7c4N1NnqvogBhPXwaVew88TkR9HgGg==",
   "success": true,
-  "projectFilePath": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.Android/NearHspt.Android.csproj",
+  "projectFilePath": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/Using/NearHospitalx/NearHspt.Android/NearHspt.Android.csproj",
   "expectedPackageFiles": [
     "/Users/annmariepigna-torres/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/annmariepigna-torres/.nuget/packages/xamarin.androidx.activity/1.1.0.5/xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
@@ -48,8 +48,8 @@
     "/Users/annmariepigna-torres/.nuget/packages/xamarin.androidx.versionedparcelable/1.1.1.6/xamarin.androidx.versionedparcelable.1.1.1.6.nupkg.sha512",
     "/Users/annmariepigna-torres/.nuget/packages/xamarin.androidx.viewpager/1.0.0.6/xamarin.androidx.viewpager.1.0.0.6.nupkg.sha512",
     "/Users/annmariepigna-torres/.nuget/packages/xamarin.androidx.viewpager2/1.0.0.7/xamarin.androidx.viewpager2.1.0.0.7.nupkg.sha512",
-    "/Users/annmariepigna-torres/.nuget/packages/xamarin.essentials/1.6.1-preview2/xamarin.essentials.1.6.1-preview2.nupkg.sha512",
-    "/Users/annmariepigna-torres/.nuget/packages/xamarin.forms/5.0.0.1905/xamarin.forms.5.0.0.1905.nupkg.sha512",
+    "/Users/annmariepigna-torres/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/annmariepigna-torres/.nuget/packages/xamarin.forms/5.0.0.1931/xamarin.forms.5.0.0.1931.nupkg.sha512",
     "/Users/annmariepigna-torres/.nuget/packages/xamarin.google.android.material/1.1.0.5/xamarin.google.android.material.1.1.0.5.nupkg.sha512",
     "/Users/annmariepigna-torres/.nuget/packages/xamarin.google.guava.listenablefuture/1.0.0.2/xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"
   ],

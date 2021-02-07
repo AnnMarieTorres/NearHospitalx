@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/NearHspt.iOS.csproj": {}
+    "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/Using/NearHospitalx/NearHspt.iOS/NearHspt.iOS.csproj": {}
   },
   "projects": {
-    "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/NearHspt.iOS.csproj": {
+    "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/Using/NearHospitalx/NearHspt.iOS/NearHspt.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/NearHspt.iOS.csproj",
+        "projectUniqueName": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/Using/NearHospitalx/NearHspt.iOS/NearHspt.iOS.csproj",
         "projectName": "Xaminals.iOS",
-        "projectPath": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/NearHspt.iOS.csproj",
+        "projectPath": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/Using/NearHospitalx/NearHspt.iOS/NearHspt.iOS.csproj",
         "packagesPath": "/Users/annmariepigna-torres/.nuget/packages/",
-        "outputPath": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt.iOS/obj/",
+        "outputPath": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/Using/NearHospitalx/NearHspt.iOS/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -26,8 +26,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt/NearHspt.csproj": {
-                "projectPath": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt/NearHspt.csproj"
+              "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/Using/NearHospitalx/NearHspt/NearHspt.csproj": {
+                "projectPath": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/Using/NearHospitalx/NearHspt/NearHspt.csproj"
               }
             }
           }
@@ -38,11 +38,11 @@
           "dependencies": {
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.6.1-preview2, )"
+              "version": "[1.6.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.1905, )"
+              "version": "[5.0.0.1931, )"
             }
           }
         }
@@ -59,14 +59,14 @@
         }
       }
     },
-    "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt/NearHspt.csproj": {
+    "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/Using/NearHospitalx/NearHspt/NearHspt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt/NearHspt.csproj",
+        "projectUniqueName": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/Using/NearHospitalx/NearHspt/NearHspt.csproj",
         "projectName": "NearHspt",
-        "projectPath": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt/NearHspt.csproj",
+        "projectPath": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/Using/NearHospitalx/NearHspt/NearHspt.csproj",
         "packagesPath": "/Users/annmariepigna-torres/.nuget/packages/",
-        "outputPath": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/NearHospitalx/NearHspt/obj/",
+        "outputPath": "/Users/annmariepigna-torres/Desktop/All_Xamarin/Newest_NH/Using/NearHospitalx/NearHspt/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/annmariepigna-torres/.config/NuGet/NuGet.Config"
@@ -101,11 +101,11 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.6.1-preview2, )"
+              "version": "[1.6.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.1905, )"
+              "version": "[5.0.0.1931, )"
             }
           },
           "imports": [

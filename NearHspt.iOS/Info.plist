@@ -32,8 +32,6 @@
 	<string>LaunchScreen</string>
 	<key>CFBundleName</key>
 	<string>NearHspt</string>
-	<key>XSAppIconAssets</key>
-	<string>Assets.xcassets/AppIcon.appiconset</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Location access is needed to show nearest Hospital / ER.</string>
 	<key>CFBundleDocumentTypes</key>
@@ -44,6 +42,10 @@
 			<key>LSItemContentTypes</key>
 			<array>
 				<string>com.apple.maps.directionsrequest</string>
+			</array>
+			<key>CFBundleTypeIconFiles</key>
+			<array>
+				<string>apple_park_new</string>
 			</array>
 		</dict>
 	</array>
@@ -61,5 +63,11 @@
 	</array>
 	<key>UIMainStoryboardFile</key>
 	<string>LaunchScreen</string>
+	<key>XSAppIconAssets</key>
+	<string>Assets.xcassets/AppIcon.appiconset</string>
+	<key>UTImportedTypeDeclarations</key>
+	<array>
+		<dict/>
+	</array>
 </dict>
 </plist>
